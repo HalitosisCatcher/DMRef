@@ -1,0 +1,6 @@
+cmd_dm_makemob - Spawns a bunch of barovian peasants with torches and pitchforks
+cmd_fx_statue - Turns you/npc into a Statue
+mb_frozenpeople - Statue but Ice
+cmd_fx_null - Cutscene invisibility
+cmd_fx_ghost - spooky ghost :)
+cmd_fx_clear - Clear all VFXs

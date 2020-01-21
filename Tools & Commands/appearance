@@ -1,0 +1,33 @@
+Appearance
+  Appearance Int
+  Phenotype Int
+  BodyPart Int
+    1 - Right foot
+    2 - Left foot
+    3 - Right shin
+    4 - Left shin
+    5 - Left thigh
+    6 - Right thigh
+    7 - Pelvis
+    8 - Torso
+    9 - Belt
+    10 - Neck
+    11 - Right forearm
+    12 - Left forearm
+    13 - Right bicep
+    14 - Left bicep
+    15 - Right shoulder
+    16 - Left shoulder
+    17 - Right hand
+    18 - Left hand
+    19 - Wing
+    20 - Tail
+    21 - Head
+  BodyPartModel Int
+  Voiceset 1
+  Portrait Str
+  ColorSlot Int
+    1 - Skin
+    2 - Hair
+    3 - Tattoo 1
+    4 - Tattoo 2

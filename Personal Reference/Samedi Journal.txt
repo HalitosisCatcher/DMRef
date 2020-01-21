@@ -1,0 +1,33 @@
+VFXs:
+  1628 - Purple wall
+  1183 - M. Resist Purple
+  1906 - Skull field
+  1248 - ?
+  1775 - Incindiary Cloud
+
+Placeables:
+  5061 - Triggered Gallows
+    5062 - Hung Man
+    5063 - Empty Noose
+    5064 - Hung Caliban
+
+    5451 - Torture Chair
+    5454 - Shackle Pillar
+
+    4399 - Temple/Tombstone
+    4439 - Prayer Kneeler + 4449 - Kneeler's Book
+
+  4853 - Temple
+    5041 - Door
+    6527 - Temple Rules
+
+  791 - Low Mist
+  1171 - High Mist
+
+Scripts:
+  cmd_dm_makemob - Spawns a bunch of barovian peasants with torches and pitchforks
+  cmd_fx_statue - Turns you/npc into a Statue
+  mb_frozenpeople - Statue but Ice
+  cmd_fx_null - Cutscene invisibility
+  cmd_fx_ghost - spooky ghost :)
+  cmd_fx_clear - Clear all VFXs
