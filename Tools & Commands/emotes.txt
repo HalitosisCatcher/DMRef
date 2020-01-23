@@ -1,0 +1,43 @@
+HAK 2.10 @emote Animations:
+
+@emote 1 - Lean forward
+@emote 2 - Nod
+@emote 3 - Pray / Kneel
+@emote 4 - Worship
+@emote 5 - Scout / Looking Far
+@emote 6 - Sit on object
+@emote 7 - Sit on ground
+@emote 8 - Talking
+@emote 9 - Pleading
+@emote 10 - Threaten
+@emote 11 - Laugh
+@emote 12 - Forage
+@emote 13 - Use Object
+@emote 14 - Tired
+@emote 15 - Wobble
+@emote 16 - Fall Forward
+@emote 17 - Fall Backward
+@emote 18 - Cast Spell (1)
+@emote 19 - Cast Spell (2)
+@emote 20 - Spasm
+@emote 21 - Play Pan Flute
+@emote 22 - Play Lute
+@emote 23 - Swig
+@emote 24 - Point Weapon Down
+@emote 25 - Push-up
+@emote 26 - Dance
+@emote 27 - Hands behind back
+@emote 28 - Sit Forward
+@emote 29 - Push Against
+@emote 30 - Bite
+@emote 31 - Point Weapon Forward
+@emote 32 - Hold Chin
+@emote 33 - Take Cover
+@emote 34 - Cross arms
+@emote 35 - Sleep on bed (1)
+@emote 36 - Sleep on bed (2)
+@emote 37 - Crouch
+@emote 38 - Strung up
+@emote 39 - Dig
+@emote 40 - Sleep on ground
+@emote 41 - Climb up
