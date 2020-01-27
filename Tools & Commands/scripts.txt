@@ -1,9 +1,3 @@
-Runscript item:
-  ##dm_setvarstring Script
-  Use it on yourself or player/npc
-  ##dm_runscript
-
-
 cmd_dm_makemob - Spawns a bunch of barovian peasants with torches and pitchforks
 cmd_clearactions - Stops all actions. Maybe use to stop NPCs from losing control?
 cmd_dumpmodels - Dumps armor part numbers
