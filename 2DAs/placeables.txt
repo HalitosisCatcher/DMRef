@@ -7613,7 +7613,7 @@
 7612		Bones: Skeleton, Duo - Lovers 3
 7613		WallDesign: Dwarven Mural 2
 7614		Flag: Ezra
-7615		Flag: Lawgiver
+7615		Flag: Lawgiver (Bane)
 7616		Flag: Morninglord
 7617		Flag: Eternal Order
 7618		****
