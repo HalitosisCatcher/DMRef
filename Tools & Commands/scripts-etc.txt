@@ -1,0 +1,39 @@
+Misc:
+  cmd_dm_makemob - Spawns a bunch of barovian peasants with torches and pitchforks
+  cmd_clearactions - Stops all actions. Maybe use to stop NPCs from losing control?
+  cmd_dumpmodels - Dumps armor part numbers
+
+
+VFXs:
+  cmd_fx_statue - Turns you/npc into a Statue
+  mb_frozenpeople - Statue but Ice
+  cmd_fx_null - Cutscene invisibility
+  cmd_fx_ghost - spooky ghost :)
+  cmd_fx_clear - Clear all VFXs
+  x2_spawn_genie - Blue purple spooky boy
+  cmd_fx_dropin - Superman drop in
+
+Areas:
+  cmd_area_reinit - Restarts area
+  cmd_area_listobj - Lists all objects with their tags/position/etc..
+  cmd_area_stats - Shows various stats of area
+
+  ##dm_setvarint/string target the ground
+    string EnterEvent Script Name - run a custom script every time the area is entered.
+    string ExitEvent Script Name - run a custom script every time the area is exited.
+    string DayEvent Script name - run this script upon daybreak or first PC enters
+    string NightEvent Script name - run this script upon nightfall or first PC enters
+    string WeatherDomain WEATHER_BAROVIA/BLAUSTEIN/DEMENTLIEU/HARAKIR/HAZLAN/SITHICUS/GHASTRIA
+    int Generic 1 - Turn off monster spawns?
+    int SinkHoleLevel 0 to 6 - Setting a SinkHoleLevel to -1 will prevent vampires from entering the area.
+    int Light -1000 to 1000 - Outdoor Only
+    int Rain -100 to 100 - Outdoor Only
+    int Humidity -100 to 100 - Outdoor/Indoor Fog. (Supposedly works indoors doesn't look like it)
+    int Cloudiness - Contributes to overall humidity. Can't tell if it actually changes visually
+    int Temperature -100 to 100 -  Outdoor/Indoor. Celsius But humidity adds heat.
+    int Wind -1000 to 1000 - Outdoor Only
+    int Fog -1000 to 1000 - Very slow fade. 100 is very foggy. 1000 the fog is thicker than a buttermilk biscuit
+    int NoWeather 1 : int NoWeatherSound 1 : int NoWeatherMusic 1 : int NoWeatherSkyBox 1
+
+Debugging:
+  cmd_pc_resetpass - Resets password
