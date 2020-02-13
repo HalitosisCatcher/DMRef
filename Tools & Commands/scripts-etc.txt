@@ -2,7 +2,7 @@ Misc:
   cmd_dm_makemob - Spawns a bunch of barovian peasants with torches and pitchforks
   cmd_clearactions - Stops all actions. Maybe use to stop NPCs from losing control?
   cmd_dumpmodels - Dumps armor part numbers
-
+  ##dm_setmodulevarint TIME_TO_RESET 15
 
 VFXs:
   cmd_fx_statue - Turns you/npc into a Statue
@@ -12,6 +12,7 @@ VFXs:
   cmd_fx_clear - Clear all VFXs
   x2_spawn_genie - Blue purple spooky boy
   cmd_fx_dropin - Superman drop in
+  cmd_fx_freeze
 
 Areas:
   cmd_area_reinit - Restarts area
