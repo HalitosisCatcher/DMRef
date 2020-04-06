@@ -1,0 +1,25 @@
+@alarm [Spams the DM channel with who entered the area]
+  set/remove
+  duration<#>/Range<#>
+
+@debug
+
+@fallen cleric/druid/paladin/all
+
+@key [make/print] - cannot get to work
+
+@list pcs
+  or @list pcs by [area/faction/origin/login/name]
+
+@listen all/stop/near/stop all/last
+
+@pc reset [pass/bg] - Reset password/background
+
+@server reset [now/<# of minutes>] | lastresettime
+
+@undroppable
+
+@unstorage
+
+@voice
+  <text> ; <check> <#> <Success message> ; <check> <#> <Success> | <failure>

@@ -2,7 +2,7 @@ Misc:
   cmd_dm_makemob - Spawns a bunch of barovian peasants with torches and pitchforks
   cmd_clearactions - Stops all actions. Maybe use to stop NPCs from losing control?
   cmd_dumpmodels - Dumps armor part numbers
-  ##dm_setmodulevarint TIME_TO_RESET 15
+  @server reset [now/<# of minutes>] | lastresettime
 
 VFXs:
   cmd_fx_statue - Turns you/npc into a Statue
@@ -13,6 +13,16 @@ VFXs:
   x2_spawn_genie - Blue purple spooky boy
   cmd_fx_dropin - Superman drop in
   cmd_fx_freeze
+
+PickTarget:
+  Combine Windows > press X and take the coordinates
+  ##dm_jumptopoint <x> <y> - align yourself perfectly (like 25 25)
+  @Mark > then offset with ##dm_jumptopoint (like 23 25)
+  Pick target the mark > @face
+  OR
+  Use the Teleport tool > Copy Description tag
+  %Target%rl_dmhqinside/ ##.##(x)/##.##(y)/ 0.00(z)/ ##% (Rotation)
+  @description %Target%rl_dmhqinside/ 25.00/35.00/ 00.00/ 45% (for a 45% angle)
 
 Areas:
   cmd_area_reinit - Restarts area
@@ -38,3 +48,8 @@ Areas:
 
 Debugging:
   cmd_pc_resetpass - Resets password
+
+Store Tools:
+  Use @description to change the desc of the Tool
+  int Unbound: lets you use the tool anyhere
+  int Range: sets a range around the target
